@@ -8,7 +8,7 @@
 <body>
     <script>
     $(document).ready(function(){
-        $.getJSON("Data_Received.json.json", function(data){
+        $.getJSON("Data_Received.json", function(data){
            document.writeln(data.name); // Prints: Harry
             document.writeln(data.age); // Prints: 14
         }).fail(function(){
