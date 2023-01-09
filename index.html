@@ -9,8 +9,8 @@
     <script>
     $(document).ready(function(){
         $.getJSON("Data_Received.json", function(data){
-           document.writeln(data.name); // Prints: Harry
-            document.writeln(data.age); // Prints: 14
+           document.writeln(data.Value_1); // Prints: Harry
+            document.writeln(data.Value_2); // Prints: 14
         }).fail(function(){
             document.writeln("An error has occurred.");
         });
