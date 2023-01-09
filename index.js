@@ -14,7 +14,7 @@ http.createServer(function (req, res) {
   var data = fs.readFileSync(__dirname + "/index.html" , "utf-8");
   res.end(data);
     var config = {
-        user: 'AP',
+        user: 'DH_SQL',
         password: '123456',
         server: 'APTHINKPAD\\WINCC', 
         database: 'NODE_DATA',
