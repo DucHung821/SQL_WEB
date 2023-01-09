@@ -14,9 +14,9 @@ http.createServer(function (req, res) {
   var data = fs.readFileSync(__dirname + "/index.html" , "utf-8");
   res.end(data);
     var config = {
-        user: 'DH_SQL',
-        password: '123456',
-        server: 'APTHINKPAD\\WINCC', 
+        user: 'AP_SQL',
+        password: 'Ap123456',
+        server: '54.252.194.179', 
         database: 'NODE_DATA',
 		port: 1433,
 		options: {
